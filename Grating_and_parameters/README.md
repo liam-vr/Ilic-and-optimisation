@@ -4,7 +4,8 @@
 ```math
 \begin{align}
 \gamma(\mathbf{v})&=\frac{1}{\sqrt{1-|\mathbf{v}|^2/c^2}} \\
-D(\mathbf{v})&=\gamma(\mathbf{v})(1-\beta_x)
+D(\mathbf{v})&=\gamma(\mathbf{v})(1-\beta_x) \\
+A^{0'}&=\gamma(\mathbf{v})(A^{0} - \boldsymbol{\beta}\cdot\mathbf{A})
 \end{align}
 ```
 
