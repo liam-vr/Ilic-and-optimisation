@@ -13,6 +13,7 @@ and
 \displaylines{k^{\phi}_y =D^2 \frac{I_0}{mc} \frac{1}{\Gamma L^2} \left[ Q^{R'}_1 + Q^{L'}_1 \right](0, \lambda') \left\{ \frac{w}{2} \sqrt{\frac{\pi}{2}} \text{erf} \left[\frac{1}{\bar{w} \sqrt{2}} \right] - \frac{L}{2}  \exp \left[-\frac{1}{2\bar{w}^2} \right] \right\}, \\
     k^{\phi}_\phi =D^2 \frac{I_0}{mc} \frac{1}{\Gamma L^2} \left( \frac{\partial Q^{R'}_{1}}{\partial \delta'} - \frac{\partial Q^{L'}_{1}}{\partial \delta'} -\left[ Q^{R'}_{2} - Q^{L'}_{2} \right] \right) (0, \lambda') \frac{w^2}{4} \left(1 - \exp\left[-\frac{1}{2\bar{w}^2} \right]  \right), \\
     \mu^{\phi}_y= D^2 \frac{I_0}{mc} \frac{1}{\Gamma L^2} \frac{1}{c} \frac{D+1}{D(\gamma+1)} \left( \frac{\partial Q^{R'}_{1}}{\partial \delta'} - \frac{\partial Q^{L'}_{1}}{\partial \delta'} -\left[ Q^{R'}_{2} - Q^{L'}_{2} \right] \right) (0, \lambda') \frac{w^2}{4} \left(1 - \exp\left[-\frac{1}{2\bar{w}^2} \right]  \right),}
+    test
 ```
 ```math
 \mu^{\phi}_\phi=-D^2 \frac{I_0}{mc} \frac{1}{\Gamma {L'}^2} \frac{1}{c} \left( 2 \left[Q^{R'}_{\text{pr,1}} + Q^{L'}_{\text{pr,1}} \right] - D \left[ \frac{\partial  Q^{R'}_{\text{pr,1}}}{\partial {\bar{\nu}'}} + \frac{\partial  Q^{L'}_{\text{pr,1}}}{\partial {\bar{\nu}'}} \right] \right) (0, \lambda')\,\frac{w^2}{4} \left\{ \frac{w}{2}\sqrt{\frac{\pi}{2}}  \text{erf}\left[\frac{1}{\bar{w} \sqrt{2}} \right] -\frac{L'}{2}\exp[-\frac{1}{2\bar{w}^2}] \right\}.
