@@ -16,7 +16,7 @@ $$\begin{aligned}
     \end{aligned}$$    
 
 with the Jacobian matrix given as 
-$$J=\begin{bmatrix}0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \\k^y_y & k^y_\phi & \mu^y_y & \mu^y_\phi \\k^\phi_y & k^\phi_\phi & \mu^\phi_y & \mu^\phi_\phi  \end{bmatrix}$$.
+$$J=\begin{bmatrix}0 & 0 & 1 & 0 \\\ 0 & 0 & 0 & 1 \\\ k^y_y & k^y_\phi & \mu^y_y & \mu^y_\phi \\\ k^\phi_y & k^\phi_\phi & \mu^\phi_y & \mu^\phi_\phi  \end{bmatrix}$$.
 
 # Folder structure
 
