@@ -1,8 +1,8 @@
 # Ilic-and-optimisation
 
-This code enables one to predict the beam-riding stability of a Gaussian-irradiated bigrating, and dynamically evolve the relatvistic equations of motion. Stability is predicted by the eigenvalues $\xi$ formed from the Jacobian matrix of phase space $\vb{x}=[y,\phi,v_y,\dot{\phi}]$ within frame $\mathcal{U}$, an instantaneous, upwards comoving frame. The Jacobian terms are given by: 
+This code enables one to predict the beam-riding stability of a Gaussian-irradiated bigrating, and dynamically evolve the relatvistic equations of motion. Stability is predicted by the eigenvalues $\xi$ formed from the Jacobian matrix of phase space $\vec{x}=[y,\phi,v_y,\dot{\phi}]$ within frame $\mathcal{U}$, an instantaneous, upwards comoving frame. The Jacobian terms are given by: 
 
-```math
+<!-- ```math
 \begin{aligned}
     k^y_y &=- D^2 \frac{I_0}{mc} \left[Q^{R'}_{2} - Q^{L'}_{2} \right](0, \lambda') \left\{1 - \exp\left[-\frac{1}{2 \bar{w}^2} \right] \right\} \\
     k^y_\phi &=-D^2 \frac{I_0}{mc} \left[ \frac{\p Q^{R'}_{2}}{\p \delta'} + \frac{\p Q^{L'}_{2}}{\p \delta'} \right](0, \lambda') \frac{w}{2} \sqrt{\frac{\pi}{2}} \erf\left[\frac{1}{\bar{w} \sqrt{2}}  \right], \\
@@ -15,6 +15,12 @@ This code enables one to predict the beam-riding stability of a Gaussian-irradia
     \mu^\phi_\phi&=-D^2 \frac{I_0}{mc} \frac{1}{\Gamma {L'}^2} \frac{1}{c} \left( 2 \left[Q^{R'}_{\text{pr,1}} + Q^{L'}_{\text{pr,1}} \right] - D \left[ \frac{\p  Q^{R'}_{\text{pr,1}}}{\p {\bar{\nu}'}} + \frac{\p  Q^{L'}_{\text{pr,1}}}{\p {\bar{\nu}'}} \right] \right) (0, \lambda')
     \,\frac{w^2}{4} \left\{ \frac{w}{2}\sqrt{\frac{\pi}{2}}  \erf\left[\frac{1}{\bar{w} \sqrt{2}} \right] -\frac{L'}{2}\exp[-\frac{1}{2\bar{w}^2}] \right\}, 
 \end{aligned}
+``` -->
+
+```math
+\begin{aligned}
+    k^y_y &=- D^2 \frac{I_0}{mc} \left[Q^{R'}_{2} - Q^{L'}_{2} \right](0, \lambda') \left\{1 - \exp\left[-\frac{1}{2 \bar{w}^2} \right] \right\} 
+\end{aligned}
 ```
 
 with the Jacobian matrix given as 
@@ -24,9 +30,8 @@ J=\begin{bmatrix}
     0 & 0 & 0 & 1 \\
     k^y_y & k^y_\phi & \mu^y_y & \mu^y_\phi \\
     k^\phi_y & k^\phi_\phi & \mu^\phi_y & \mu^\phi_\phi 
-\end{bmatrix}
+\end{bmatrix}.
 ```
-.
 
 # Folder structure
 
