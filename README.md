@@ -14,12 +14,17 @@ This code enables one to predict the beam-riding stability of a Gaussian-irradia
     \mu^\phi_y &= D^2 \frac{I_0}{mc} \frac{1}{\Gamma L^2} \frac{1}{c} \frac{D+1}{D(\gamma+1)} \left( \frac{\p Q^{R'}_{1}}{\p \delta'} - \frac{\p Q^{L'}_{1}}{\p \delta'} -\left[ Q^{R'}_{2} - Q^{L'}_{2} \right] \right) (0, \lambda') \frac{w^2}{4} \left(1 - \exp\left[-\frac{1}{2\bar{w}^2} \right]  \right), \\
     \mu^\phi_\phi&=-D^2 \frac{I_0}{mc} \frac{1}{\Gamma {L'}^2} \frac{1}{c} \left( 2 \left[Q^{R'}_{\text{pr,1}} + Q^{L'}_{\text{pr,1}} \right] - D \left[ \frac{\p  Q^{R'}_{\text{pr,1}}}{\p {\bar{\nu}'}} + \frac{\p  Q^{L'}_{\text{pr,1}}}{\p {\bar{\nu}'}} \right] \right) (0, \lambda')
     \,\frac{w^2}{4} \left\{ \frac{w}{2}\sqrt{\frac{\pi}{2}}  \erf\left[\frac{1}{\bar{w} \sqrt{2}} \right] -\frac{L'}{2}\exp[-\frac{1}{2\bar{w}^2}] \right\}, 
-    \end{aligned}
+\end{aligned}
 ```
 
 with the Jacobian matrix given as 
 ```math
-J=\begin{bmatrix}0 & 0 & 1 & 0 \\\ 0 & 0 & 0 & 1 \\\ k^y_y & k^y_\phi & \mu^y_y & \mu^y_\phi \\\ k^\phi_y & k^\phi_\phi & \mu^\phi_y & \mu^\phi_\phi  \end{bmatrix}
+J=\begin{bmatrix}
+    0 & 0 & 1 & 0 \\
+    0 & 0 & 0 & 1 \\
+    k^y_y & k^y_\phi & \mu^y_y & \mu^y_\phi \\
+    k^\phi_y & k^\phi_\phi & \mu^\phi_y & \mu^\phi_\phi 
+\end{bmatrix}
 ```.
 
 # Folder structure
