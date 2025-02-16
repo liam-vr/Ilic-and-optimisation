@@ -16,7 +16,7 @@ $\begin{aligned}
     \end{aligned}$    
 
 with the Jacobian matrix given as 
-$J=\begin{pmatrix} 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \\ k^y_y & k^y_\phi & \mu^y_y & \mu^y_\phi \\ k^\phi_y & k^\phi_\phi & \mu^\phi_y & \mu^\phi_\phi  \end{pmatrix}$.
+$J=\begin{bmatrix} 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1 \\ k^y_y & k^y_\phi & \mu^y_y & \mu^y_\phi \\ k^\phi_y & k^\phi_\phi & \mu^\phi_y & \mu^\phi_\phi  \end{bmatrix}$.
 
 # Folder structure
 
@@ -37,7 +37,7 @@ Since calculation of the efficiency factors is numerically time-intensive, "look
 This folder contains three dynamics integrators to evolve lightsail dynamics:
 - `!M_non-linear.py`: this is the main method. The full non-linear equations of motion are applied in frame $\mathcal{M}$, which is continually updating by converting between $\mathcal{M}$ and $\mathcal{L}$ as necessary.
 - `M_non-dispersive.py`: this integrator only considers the grating response at $\lambda'=\lambda'(v=0)$, and updates information between $\mathcal{M}$ and $\mathcal{L}$ the same as `!M_non-linear.py`.
-- `U_Jacobian-terms.py`: the linearised equations of motion are obtained from the derived Jacobian terms, which only being valid in frame $\mathcal{U}$, are hence applied in $\m,mathcal{U}$, requiring information to be updated between $\mathcal{U}$ and $\mathcal{L}$.
+- `U_Jacobian-terms.py`: the linearised equations of motion are obtained from the derived Jacobian terms, which only being valid in frame $\mathcal{U}$, are hence applied in $\mathcal{U}$, requiring information to be updated between $\mathcal{U}$ and $\mathcal{L}$.
 
 ## ``/Optimisation``
 This folder contains preliminary code for optimising a bigrating-Gaussian structure for asymptotic stability, where `opt.py` defines the global and local optimisation which is run by `run_parallel.py`, with results extracted in `run_parallel_extract.ipynb`.
