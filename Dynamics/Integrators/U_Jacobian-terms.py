@@ -3,6 +3,9 @@ Integrates dynamics by appling forces (built from the Jacobian terms) in frame U
 Efficiency factors (and derivatives) are always at $delta'=0$ -- wavelength dependence remains.
 - Formed from file `Lookup_tables_1D.py`
 - Uses Option="vary-wavelength" since grating response formed at $delta'=0$.
+
+To fully model forces in frame U, one would need to transform the four-force from frame M to U. With a relative velocity of $\gamma'' v_y$, O(beta^2) terms are present. 
+Then, the correction to Newton's second law should be applied (practically insignificant), where $a = (F/m) / (\gamma_U)^3$, with $\gamma_U \equiv \gamma(\gamma'' v_y)$
 """
 
 import numpy as np
