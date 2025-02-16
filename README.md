@@ -1,6 +1,6 @@
 # Ilic-and-optimisation
 
-This code enables one to predict the beam-riding stability of a Gaussian-irradiated bigrating, and dynamically evolve the relatvistic equations of motion. Stability is predicted by the eigenvalues $\xi$ formed from the Jacobian matrix of phase space $\vec{x}=[y,\phi,v_y,\dot{\phi}]$ within frame $\mathcal{U}$, an instantaneous, upwards comoving frame. The Jacobian terms are given by: 
+This code enables one to predict the beam-riding stability of a Gaussian-irradiated bigrating, and dynamically evolve the relatvistic equations of motion. Stability is predicted by the eigenvalues $\xi$ formed from the Jacobian matrix of phase space $\mathbf{x}=[y,\phi,v_y,\dot{\phi}]$ within frame $\mathcal{U}$, an instantaneous, upwards comoving frame. The Jacobian terms are given by: 
 
 ```math
 \displaylines{k^y_y =- D^2 \frac{I_0}{mc} \left[Q^{R'}_{\text{pr,2'}} - Q^{L'}_{\text{pr,2'}} \right](0, \lambda') \left\{1 - \exp\left[-\frac{1}{2 \bar{w}^2} \right] \right\}, \\
